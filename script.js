@@ -1,8 +1,7 @@
 function openModal(modalId) {
-    document.getElementById(modalId).style.display = "block";
+    document.getElementById(modalId).style.display = "flex";
 }
 
-// Закрытие модального окна при клике вне его содержимого
 window.onclick = function(event) {
     const modals = document.getElementsByClassName('modal');
     for (let i = 0; i < modals.length; i++) {
